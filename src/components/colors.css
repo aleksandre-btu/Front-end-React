@@ -1,0 +1,21 @@
+.colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 20rem;
+    margin: 3rem auto;
+    grid-gap: 12px;
+}
+
+.coloredButton {
+    width: 6rem;
+    height: 3rem;
+    cursor: pointer;
+    border: none;
+}
+
+.text {
+    margin: 3rem auto;
+    border: 2px solid black;
+    max-width: 10rem;
+}
